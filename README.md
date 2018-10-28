@@ -1,7 +1,7 @@
 # ImageRadioButton
 Android Custom Radio Button
 
-<p><img src="https://drive.google.com/uc?export=view&id=11ORJT9W5vXYFOLcPgJa7ZpDF4Zp_tzr1" align="left" width="300" ><p>
+<p><img src="https://drive.google.com/uc?export=view&id=11ORJT9W5vXYFOLcPgJa7ZpDF4Zp_tzr1" align="left" width="300" ></p>
 
 # Step 1: Configure gradle
 Include the project in gradle:
