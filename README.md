@@ -1,7 +1,7 @@
 # ImageRadioButton
 Android Custom Radio Button
 
-![alt text](https://bintray-binary-objects-or-production.s3-accelerate.amazonaws.com/8a5a832531b8d74d376becb899524a67514240f074894a2e6e9c3385cac9afab)
+![alt text](https://drive.google.com/uc?export=view&id=11ORJT9W5vXYFOLcPgJa7ZpDF4Zp_tzr1)
 
 # Step 1: Configure gradle
 Include the project in gradle:
