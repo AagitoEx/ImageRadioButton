@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".MainActivity">
+
+    <com.aagito.imageradiobutton.RadioImageGroup
+        android:id="@+id/radioImageGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:presetRadioCheckedId="@id/female">
+
+        <com.aagito.imageradiobutton.RadioImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:drawableIcon="@drawable/ic_bluetooth_black_24dp"
+            app:iconPosition="left"
+            app:iconSize="48dp"
+            app:selectedBackgroundColor="#ddFFdd"
+            app:selectedIconColor="@color/colorPrimary"
+            app:text="Male" />
+
+        <com.aagito.imageradiobutton.RadioImageButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:drawableIcon="@drawable/ic_bluetooth_black_24dp"
+            app:iconPosition="right"
+            app:iconSize="48dp"
+            app:selectedBackgroundColor="#ddFFdd"
+            app:selectedIconColor="@color/colorPrimary"
+            app:text="Female" />
+
+    </com.aagito.imageradiobutton.RadioImageGroup>
+
+    <com.aagito.imageradiobutton.RadioImageGroup
+        android:id="@+id/radioImageGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioImageGroup">
+
+        <com.aagito.imageradiobutton.RadioImageButton
+            android:id="@+id/test"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:drawableIcon="@drawable/ic_bluetooth_black_24dp"
+            app:iconPosition="bottom"
+            app:iconSize="48dp"
+            app:selectedBackgroundColor="#ddFFdd"
+            app:selectedIconColor="@color/colorPrimary"
+            app:text="Female" />
+
+        <com.aagito.imageradiobutton.RadioImageButton
+            android:id="@+id/test2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:drawableIcon="@drawable/ic_bluetooth_black_24dp"
+            app:iconPosition="top"
+            app:iconSize="48dp"
+            app:selectedBackgroundColor="#ddFFdd"
+            app:selectedIconColor="@color/colorPrimary"
+            app:text="Male" />
+    </com.aagito.imageradiobutton.RadioImageGroup>
+
+    <com.aagito.imageradiobutton.RadioImageGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioImageGroup2">
+
+        <com.aagito.imageradiobutton.RadioImageButton
+            android:id="@+id/test3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:drawableIcon="@drawable/ic_bluetooth_black_24dp"
+            app:iconPosition="bottom"
+            app:iconSize="48dp"
+            app:selectedBackgroundColor="#ddFFdd"
+            app:selectedIconColor="@color/colorPrimary" />
+
+        <com.aagito.imageradiobutton.RadioImageButton
+            android:id="@+id/test4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:drawableIcon="@drawable/ic_bluetooth_black_24dp"
+            app:iconPosition="top"
+            app:iconSize="48dp"
+            app:selectedBackgroundColor="#ddFFdd"
+            app:selectedIconColor="@color/colorPrimary" />
+    </com.aagito.imageradiobutton.RadioImageGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
