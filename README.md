@@ -2,7 +2,7 @@
 Android Custom Radio Button
 
 <a href="#">
-    <img src="https://drive.google.com/uc?export=view&id=11ORJT9W5vXYFOLcPgJa7ZpDF4Zp_tzr1" align="left" width="300" >
+    <img src="https://drive.google.com/uc?export=view&id=11ORJT9W5vXYFOLcPgJa7ZpDF4Zp_tzr1" align="left" width="300" />
 </a>
 <p>
 # Step 1: Configure gradle
