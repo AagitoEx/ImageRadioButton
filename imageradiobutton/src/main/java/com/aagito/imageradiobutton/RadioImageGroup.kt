@@ -108,7 +108,7 @@ class RadioImageGroup: LinearLayout {
     private fun setCheckedId(@IdRes id: Int, isChecked: Boolean) {
         mCheckedId = id
         if (mOnCheckedChangeListener != null) {
-            mOnCheckedChangeListener!!.onCheckedChanged(this, mChildViewsMap[id], isChecked, mCheckedId)
+            mOnCheckedChangeListener?.onCheckedChanged(this, mChildViewsMap[id], isChecked, mCheckedId)
         }
     }
 

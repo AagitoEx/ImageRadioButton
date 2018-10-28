@@ -1,10 +1,8 @@
 # ImageRadioButton
 Android Custom Radio Button
 
-<a href="#">
-    <img src="https://drive.google.com/uc?export=view&id=11ORJT9W5vXYFOLcPgJa7ZpDF4Zp_tzr1" align="left" width="300" />
-</a>
-<p>
+![screenshot](device-2018-10-28-131450.png)
+
 # Step 1: Configure gradle
 Include the project in gradle:
 ```
@@ -51,15 +49,14 @@ dependencies {
 
 </com.aagito.imageradiobutton.RadioImageGroup>
 ```
-*** Custom Properties ***
-Available Attributes for `RadioImageGroup`:
+**Custom Properties** Available for `RadioImageGroup`:
 ```
 <declare-styleable name="RadioImageGroup">
     <attr name="presetRadioCheckedId" format="reference" />
 </declare-styleable>
 ```
 
-Available Attributes for `RadioImageButton`:
+**Custom Properties** Available for `RadioImageButton`:
 ```
 <declare-styleable name="RadioImageButton">
     <attr name="text" format="string" />
@@ -80,4 +77,14 @@ Available Attributes for `RadioImageButton`:
     </attr>
 </declare-styleable>
 ```
-</p>
+
+**Listen for changes.** Get selected radiobutton id (kotlin):
+```
+radioImageGroup.setOnCheckedChangeListener(object: RadioImageGroup.OnCheckedChangeListener {
+    override fun onCheckedChanged(radioGroup: View, radioButton: View?, isChecked: Boolean, checkedId: Int) {
+
+        println(checkedId)
+
+    }
+})
+```
