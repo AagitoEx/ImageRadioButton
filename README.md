@@ -1,3 +1,6 @@
+### DEPRECATED
+No longer maintained
+
 # ImageRadioButton
 Android Custom Radio Button
 [![CircleCI](https://circleci.com/gh/AagitoEx/ImageRadioButton.svg?style=svg)](https://circleci.com/gh/AagitoEx/ImageRadioButton)
